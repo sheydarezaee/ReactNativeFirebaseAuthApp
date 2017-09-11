@@ -1,9 +1,14 @@
+import { AppRegistry } from 'react-native';
+import App from './src/app';
+
+AppRegistry.registerComponent('auth', () => App);
+
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
  */
-
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -51,3 +56,9 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('auth', () => auth);
+*/
+
+
+//in order to have everything identical in ios and android, one strategy can be 
+//having App file to link to these two and make both identical
+
